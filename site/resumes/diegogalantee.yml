@@ -1,0 +1,105 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output
+#
+
+template: "online-cv"
+skin: "blue"
+
+# Personal Information
+basic_info:
+
+    # Your full name
+    first_name: Diego
+    last_name: Galante
+    
+    # Define yourself in 4-5 words
+    motto: Nothing will stop my dreams
+    
+    # Focus
+    focus: Constantly being better than my previous self.
+    
+    # You have 1 paragraph to make a great impression, summarize your career
+    summary: |
+      I have the Best english certificate provided by Cambridge(C2), I'm a high performance athlete with various achievements and 
+      I  just graduated from  high school and got into my dream college. Throughout my life I have worked under stressful situations with success, 
+      even achieving better results than the average. Moreover I am now in the process of finishing an informatics course 
+      which will skyrocket my knowledge in this topic.
+    
+    # Your profile picture URL
+    # If you don't have it as a URL you can place the picture inside /static/profile-images/ and the generated link will be http://sep.breatheco.de/static/profile-images/<your file name>
+    avatar: <img src="https://picsum.photos/300/200" alt="Imagen aleatoria">
+
+    # Contact Information
+    email: diegogalante07@gmail.com #optional
+    phone: 626 304 336 #optional
+    website: In process #optional
+    linkedin: Not done #optional
+    
+    #
+    # ******** IMPORTANT *******
+    # This github username will be used to generate your public profile URL like this: http://sep.breatheco.de/sharu725
+    github: DiegoGalantee
+    
+    twitter: 'Non existent' #optional
+    stack-overflow: 7373/DiegoGalantee
+
+    # Languages you speak, levels include: Native, Professional
+    languages:
+      - idiom: English
+        level: Professional/Native
+
+      - idiom: French
+        level: B1
+
+      - idiom: Spanish
+        level: Native
+
+    # Interests or hobbies
+    interests:
+      - item: Surfing
+
+      - item: Programming
+
+      - item: Volleyball
+
+# Your previous education
+education:
+    - degree: In progress (Computer engineering)
+      university: ULPGC
+      # optional
+      university_logo: https://www.ulpgc.es/sites/default/files/ArchivosULPGC/identidad-corporativa/Logo%2025%20Aniversario/logo_ulpgc_vertical_uso_cotidiano_2t.jpg
+      time: In progress
+      details: | 
+        
+
+          - High school diploma
+          - C2 english certificate
+
+# Your previous job experiences or volunteer
+experiences:
+    - role: Lead Developer
+      time: 2020-2022
+      company: Colegio Arenas Atlantico 
+      company_logo: <img src="https://media.licdn.com/dms/image/v2/C4E0BAQEN4bdpw8y_yg/company-logo_200_200/company-logo_200_200/0/1630591862758/colegio_arenas_logo?e=2147483647&v=beta&t=kzzAlAM0rR--zwiVwnmqlmg624EY2womglbgslbamc0" alt="Imagen aleatoria">
+      details: |
+        We were asigned to create a robot which could recreate certain moves and operate on its own when needed. After considering what had to be done, we divided the tasks 
+        equally to each member and started working right away. 1 month later, it was finished and we won a small tourney that was organized between schools.
+
+# Your project portfolio
+projects:
+    intro: >
+      - I have been working on a solitaire for a few months now.
+
+skills:
+    toolset:
+      - name: Python
+        level: 70%
+
+      - name: JavaScript & jQuery
+        level: 90%
+
+      - name: React & Bootstrap
+        level: 90%
+
+      - name: HTML5 & CSS
+        level: 94%    
